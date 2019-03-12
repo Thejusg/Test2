@@ -33,10 +33,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk-image" translatesAutoresizingMaskIntoConstraints="NO" id="gAA-OY-7C8">
+                                <rect key="frame" x="0.0" y="477" width="375" height="190"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gAA-OY-7C8" secondAttribute="trailing" id="51I-9c-wNv"/>
                             <constraint firstItem="9Hz-Ik-4ya" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H6Q-OZ-JgV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gAA-OY-7C8" secondAttribute="bottom" id="NBe-A7-2t7"/>
+                            <constraint firstItem="gAA-OY-7C8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TQa-az-gIz"/>
                             <constraint firstItem="9Hz-Ik-4ya" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="cJf-WF-bb5"/>
                             <constraint firstItem="XpA-vd-0qI" firstAttribute="top" secondItem="9Hz-Ik-4ya" secondAttribute="bottom" constant="55" id="i3f-kq-Km6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XpA-vd-0qI" secondAttribute="bottom" constant="428" id="i60-6c-E8E"/>
@@ -50,4 +56,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="milk-image" width="266" height="190"/>
+    </resources>
 </document>
